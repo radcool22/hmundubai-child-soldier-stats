@@ -1,0 +1,70 @@
+.map-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.country {
+    fill: #f7f3f0;
+    stroke: #000000;
+    stroke-width: 0.5px;
+    transition: fill 0.3s ease;
+}
+
+.country.has-data {
+    fill: #ffcdd2;
+}
+
+.country:hover {
+    fill: #ffd12e;
+    cursor: pointer;
+}
+
+.country.has-data:hover {
+    fill: #ff8a80;
+}
+
+.side-panel {
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.side-panel.open {
+    transform: translateX(0);
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 4px;
+    border-radius: 2px;
+    background: #e5e7eb;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px #000;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px #000;
+}
