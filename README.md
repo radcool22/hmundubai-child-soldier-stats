@@ -224,128 +224,6 @@ Australia: It supports international initiatives to prevent recruitment and fund
 Switzerland: It advocates for child protection in armed conflict, providing funding for programs to help reintegrate former child soldiers and working through the UN to combat recruitment.
 
 
-
-Data Table:
-
-
-
-
-
-
-
-
-Country
-2015
-2016
-2017
-2018
-2019
-2020
-2023
-Afghanistan
-48
-96
-84
-46
-64
-196
--
-Central African Republic
--
--
--
--
--
-584
--
-Colombia
-289
-230
-169
-293
-107
-116
--
-D.R of Congo
-- 
--
-1049
--
-601
-1164
--
-Mali
--
--
--
--
--
-186
--
-Mozambique
--
--
--
--
--
--
-40
-Myanmar
--
--
-38
-7
-50
-790
--
-Nigeria
-Total: 685 (no years provided)
-Philippines
-Total: 12 (no years provided)
-Somalia
-903
-1915
-2127
-2300
-1495
-1716
--
-South Sudan
-2596
-1022
-1221
-453
-161
-62
--
-Syria
-362
-851
-961
-806
-820
-813
--
-Ukraine
--
--
--
--
--
--
-2
-Yemen
-762
-517
-842
-370
-686
-163
--
-
-
-
-
 Basic Website Wireframe and Interface Brainstorming:
 
 
@@ -356,7 +234,6 @@ Link to audio created by NotebookLM
 Slider bar on top for filtering which year to show the data for.
 Live counter of child soldier numbers (estimates through probability.
 World map which shows a specific countries’ child soldier statistics when clicked.
-Wireframe:
 
 
 
