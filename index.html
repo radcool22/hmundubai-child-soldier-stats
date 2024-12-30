@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Interactive world map showing global child soldier statistics">
     <meta name="keywords" content="child soldiers, world map, humanitarian crisis, global statistics">
-    <meta property="og:title" content="Global Child Soldier Crisis Map">
+    <meta property="og:title" content="Global Child Soldier Statistics">
     <meta property="og:description" content="Interactive world map showing global child soldier statistics">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Global Child Soldier Crisis Map">
+    <meta name="twitter:title" content="Global Child Soldier Statistics">
     <meta name="twitter:description" content="Interactive world map showing global child soldier statistics">
-    <title>Global Child Soldier Crisis Map</title>
+    <title>Global Child Soldier Statistics</title>
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -22,12 +22,13 @@
 </head>
 <body>
     <div id="root"></div>
+    <script type="text/babel" src="components/Counter.js"></script>
     <script type="text/babel" src="components/Header.js"></script>
     <script type="text/babel" src="components/WorldMap.js"></script>
-    <script type="text/babel" src="components/SidePanel.js"></script>
     <script type="text/babel" src="components/YearSlider.js"></script>
-    <script type="text/babel" src="utils/mapUtils.js"></script>
     <script type="text/babel" src="utils/dataUtils.js"></script>
     <script type="text/babel" src="app.js"></script>
+    <script type="text/babel" src="components/SidePanel.js"></script>
+    <script type="text/babel" src="utils/mapUtils.js"></script>
 </body>
 </html>

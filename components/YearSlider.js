@@ -15,7 +15,7 @@ function YearSlider({ selectedYear, onYearChange }) {
     };
 
     return (
-        <div data-name="year-slider" className="w-96 mx-auto mt-4">
+        <div data-name="year-slider" className="w-72 mx-auto mt-2">
             <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-bold">2015</span>
                 <span className="text-xs font-bold text-center">Year: {selectedYear}</span>

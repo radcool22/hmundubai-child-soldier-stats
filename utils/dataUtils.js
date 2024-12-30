@@ -63,22 +63,10 @@ const countryData = {
         "2023": "-"
     },
     "Nigeria": {
-        "2015": "685",
-        "2016": "685",
-        "2017": "685",
-        "2018": "685",
-        "2019": "685",
-        "2020": "685",
-        "2023": "685"
+        "total": "685"
     },
     "Philippines": {
-        "2015": "12",
-        "2016": "12",
-        "2017": "12",
-        "2018": "12",
-        "2019": "12",
-        "2020": "12",
-        "2023": "12"
+        "total": "12"
     },
     "Somalia": {
         "2015": "903",
@@ -129,11 +117,15 @@ const countryData = {
 
 function getCountryStatistics(countryName, year) {
     try {
-        if (countryData[countryName] && countryData[countryName][year.toString()]) {
-            const value = countryData[countryName][year.toString()];
-            if (value !== "-") {
+        if (countryData[countryName]) {
+            if (countryData[countryName].total) {
                 return {
-                    total: value,
+                    total: countryData[countryName].total,
+                    isTotal: true
+                };
+            } else if (countryData[countryName][year.toString()] && countryData[countryName][year.toString()] !== "-") {
+                return {
+                    total: countryData[countryName][year.toString()],
                     year: year
                 };
             }
