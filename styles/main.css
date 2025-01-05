@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url('https://images.unsplash.com/photo-1576615278693-f8e095e37374');
     background-size: cover;
@@ -11,17 +12,22 @@ body.dark-mode {
     background-color: #1a1a1a;
 }
 
+=======
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e
 .map-container {
     width: 100%;
     height: 100%;
     position: relative;
     transform: translateY(0);
+<<<<<<< HEAD
     background-color: rgba(255, 255, 255, 0.9);
     padding: 1rem;
 }
 
 .dark-mode .map-container {
     background-color: rgba(26, 26, 26, 0.9);
+=======
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e
 }
 
 .country {
@@ -31,6 +37,7 @@ body.dark-mode {
     transition: fill 0.3s ease;
 }
 
+<<<<<<< HEAD
 .dark-mode .country {
     fill: #2d2d2d;
     stroke: #ffffff;
@@ -75,6 +82,25 @@ body.dark-mode {
     cursor: pointer;
 }
 
+=======
+.country.has-data {
+    fill: #ffcdd2;
+}
+
+.country.has-total {
+    fill: #ff9800;
+}
+
+.country:hover {
+    fill: #ffd12e;
+    cursor: pointer;
+}
+
+.country.has-data:hover {
+    fill: #ff8a80;
+}
+
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e
 .tooltip {
     display: none;
     position: fixed;
@@ -89,6 +115,7 @@ body.dark-mode {
     max-width: 200px;
 }
 
+<<<<<<< HEAD
 .dark-mode .tooltip {
     background: rgba(26, 26, 26, 0.95);
     color: #ffffff;
@@ -106,6 +133,8 @@ body.dark-mode {
     color: #ffffff;
 }
 
+=======
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e
 input[type="range"] {
     -webkit-appearance: none;
     height: 4px;
@@ -135,6 +164,7 @@ input[type="range"]::-moz-range-thumb {
     border: 2px solid #fff;
     box-shadow: 0 0 0 1px #000;
 }
+<<<<<<< HEAD
 
 .dark-mode input[type="range"] {
     background: #4a4a4a;
@@ -174,3 +204,5 @@ input[type="range"]::-moz-range-thumb {
 .dark-mode [data-name="sources-button"]:hover {
     background-color: #333;
 }
+=======
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e

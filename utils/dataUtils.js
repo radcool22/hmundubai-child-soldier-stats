@@ -35,6 +35,7 @@ const countryData = {
         "2020": "1164",
         "2023": "-"
     },
+<<<<<<< HEAD
     "D.R of Congo": {
         "2015": "-",
         "2016": "-",
@@ -44,6 +45,8 @@ const countryData = {
         "2020": "1164",
         "2023": "-"
     },
+=======
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e
     "Mali": {
         "2015": "-",
         "2016": "-",
@@ -124,6 +127,7 @@ const countryData = {
     }
 };
 
+<<<<<<< HEAD
 function calculateYearlyAndCumulativeTotal(countryData, targetYear) {
     try {
         let yearTotal = countryData[targetYear] !== "-" ? parseInt(countryData[targetYear]) || 0 : 0;
@@ -164,12 +168,17 @@ function getCountryStatistics(countryName, year) {
             }
         }
 
+=======
+function getCountryStatistics(countryName, year) {
+    try {
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e
         if (countryData[countryName]) {
             if (countryData[countryName].total) {
                 return {
                     total: countryData[countryName].total,
                     isTotal: true
                 };
+<<<<<<< HEAD
             } else {
                 const stats = calculateYearlyAndCumulativeTotal(countryData[countryName], year);
                 if (stats.yearTotal > 0 || stats.cumulativeTotal > 0) {
@@ -179,6 +188,13 @@ function getCountryStatistics(countryName, year) {
                         year: year
                     };
                 }
+=======
+            } else if (countryData[countryName][year.toString()] && countryData[countryName][year.toString()] !== "-") {
+                return {
+                    total: countryData[countryName][year.toString()],
+                    year: year
+                };
+>>>>>>> 29b6ed2cc773db419db846555362a065f8ba412e
             }
         }
         return null;
